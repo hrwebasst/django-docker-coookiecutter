@@ -1,7 +1,7 @@
 {
     "project_name": "project name",
     "repo_name": "{{ cookiecutter.project_name|replace(' ', '_') }}",
-    "virtual_host": "reponame.dev",
+    "virtual_host": "{{ cookiecutter.project_name|replace(' ', '_') }}.dev",
     "author_name": "Author Name",
     "email": "Email",
     "django_language_code": "en-us",
