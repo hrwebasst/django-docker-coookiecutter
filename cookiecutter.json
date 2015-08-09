@@ -1,13 +1,14 @@
 {
-    "project_name": "Project Name",
-    "repo_name": "reponame",
+    "project_name": "project name",
+    "repo_name": "{{ cookiecutter.project_name|replace(' ', '_') }}",
     "virtual_host": "reponame.dev",
     "author_name": "Author Name",
     "email": "Email",
     "django_language_code": "en-us",
     "html_language_code": "en",
-    "time_zone": "Europe/Stockholm",
-    "postgres_password": "PostgreSQL password",
+    "time_zone": "America/Los_Angeles",
+    "postgres_user": "myuser",
+    "postgres_password": "mypass",
     "django_secret_key": "Django secret key",
     "html5shiv_version": "3.7.3",
     "respond_version": "1.4.2"
