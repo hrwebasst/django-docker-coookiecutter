@@ -22,9 +22,10 @@ This setup is currently only intended to be used in dev, not production.
 - Sass
 - Compass
 - Compass breakpoint module
-- Bootstrap
+- Bootstrap v4 Alpha
 - jQuery
 - Gulp with watch and livereload
+- Node with SocketIO
 
 ## How to use
 First install cookiecutter, probably:

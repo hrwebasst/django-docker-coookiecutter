@@ -9,7 +9,7 @@
     "time_zone": "America/Los_Angeles",
     "postgres_user": "myuser",
     "postgres_password": "mypass",
-    "django_secret_key": "Django secret key",
+    "django_secret_key": "qgbf&&866vdqglwn^w*k*1d9c7uj%np!k7lsg41x_4%+*-_j&2",
     "html5shiv_version": "3.7.3",
     "respond_version": "1.4.2"
 }
