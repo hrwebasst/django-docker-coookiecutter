@@ -9,21 +9,21 @@ body:before {
     content: "XS";
     color: red;
 }
-@include breakpoint(47.9em) {
+@include breakpoint(768px) {
     body:before {
-        content: "SM 47.9+em";
+        content: "SM 768+px";
         color: red;
     }
 }
 @include breakpoint(992px) {
     body:before {
-        content: "MD 61.9+em";
+        content: "MD 992+px";
         color: red;
     }
 }
 @include breakpoint(1200px) {
     body:before {
-        content: "LG 74.9+em";
+        content: "LG 1200+px";
         color: red;
     }
 }
@@ -31,43 +31,8 @@ body:before {
 //
 // Breakpoints
 //
-$bp-xs: max-width 33.9em;
-$bp-sm: 47.9em;
-$bp-md: 61.9em;
-$bp-lg: 74.9em;
-
-/*
-// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width
-
-// Large devices (desktops, less than 75em)
-@media (max-width: 74.9em) { 
-    body:before {
-        content: "LG";
-        color: red;
-    }
- }
-
-// Medium devices (tablets, less than 62em)
-@media (max-width: 61.9em) { 
-    body:before {
-        content: "M";
-        color: red;
-    }
- }
-
-// Small devices (landscape phones, less than 48em)
-@media (max-width: 47.9em) { 
-    body:before {
-        content: "SM";
-        color: red;
-    }    
- }
-
-// Extra small devices (portrait phones, less than 34em)
-@media (max-width: 33.9em) { 
-    body:before {
-        content: "XS";
-        color: red;
-    }
- }*/
+$bp-xs: max-width 767px;
+$bp-sm: 768px;
+$bp-md: 992px;
+$bp-lg: 1200px;
+$bp-xl: 1600px;
